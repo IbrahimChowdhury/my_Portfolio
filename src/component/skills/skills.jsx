@@ -68,7 +68,7 @@ const Skills = () => {
             <div className='flex gap-5 flex-wrap md:w-1/2 ml-10  md:ml-28   '>
             {
               skills.length>0 &&  skills.map(skill=>(
-                  <span key={skill.id}  className='px-4 py-2 md:w-44 text-center rounded-lg Satisfy bg-gradient-to-r from-indigo-500 to-cyan-600 text-white font-medium  ease-in-out duration-200 hover:-translate-y-1 ' >{skill.skillName}</span>
+                  <span key={skill.id}  className='px-4 py-2 md:w-44 text-center rounded-lg monFont  bg-gradient-to-r from-indigo-500 to-cyan-600 text-white font-medium  ease-in-out duration-200 hover:-translate-y-1 ' >{skill.skillName}</span>
                   ))
                 }
             </div>

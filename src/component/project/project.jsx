@@ -68,7 +68,7 @@ const Project = () => {
     return (
         <div  className='mt-12 mb-16 '>
 
-<h1  className="flex justify-center text-3xl dancingFont ">Projects </h1>
+<h1  className="flex justify-center text-4xl dancingFont ">PROJECTS </h1>
 
         <Swiper
         effect={'coverflow'}

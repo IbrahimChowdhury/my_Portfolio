@@ -83,15 +83,15 @@ export default function Example() {
             href="/"
             className="mr-4 dancingFont text-xl   md:ml-16 cursor-pointer py-1.5 font-thin"
           >
-            <span className="px-2 mr-2 font-bold rounded-lg bg-slate-400 text-black ">I</span>
+            {/* <span className="px-2 mr-2 font-bold rounded-lg bg-slate-400 text-black ">I</span> */}
             IBRAHIM
           </Typography>
           <div className="flex items-center gap-4">
-            <div className="mr-4 hidden lg:block">{navList}</div>
+            <div className=" hidden lg:block">{navList}</div>
            
             <IconButton
               variant="text"
-              className="mb-4 h-6 w-6 text-inherit hover:bg-transparent  lg:hidden"
+              className="  h-6 w-6 text-inherit hover:bg-transparent  focus:bg-transparent active:bg-transparent  lg:hidden"
               ripple={false}
               onClick={() => setOpenNav(!openNav)}
             >
@@ -99,7 +99,7 @@ export default function Example() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
-                  className="h-6 w-6"
+                  className="h-6 w-6 relative bottom-3 right-3"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   strokeWidth={2}
@@ -113,7 +113,7 @@ export default function Example() {
               ) : (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="w-6 h-6 relative bottom-3 right-3 "
                   fill="none"
                   stroke="currentColor"
                   strokeWidth={2}
