@@ -5,7 +5,7 @@ import imageUrl from "../../assets/ibra5.png"
 const HeadBanner = () => {
     return (
         
-        <div className='pt-10 flex flex-col md:flex-row justify-between items-center gap-2  monFont md:gap-32  bg-gray-900 pb-6 '>
+        <div className='pt-10 flex flex-col md:flex-row justify-between items-center gap-2  monFont md:gap-32  bg-gray-900 pb-6 pl-4 pr-4 md:pr-0 md:pl-0 '>
             <Slide direction='left'>
                 <div className='flex flex-col gap-6 md:ml-20 p-4'>
                     <div className='flex flex-col gap-2 '>

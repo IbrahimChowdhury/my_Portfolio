@@ -81,9 +81,9 @@ export default function Example() {
           <Typography
             as="a"
             href="/"
-            className="mr-4 dancingFont text-xl   md:ml-16 cursor-pointer py-1.5 font-thin"
+            className="mr-4  dancingFont text-xl   md:ml-16 cursor-pointer py-1.5 font-thin"
           >
-            {/* <span className="px-2 mr-2 font-bold rounded-lg bg-slate-400 text-black ">I</span> */}
+            <span className="px-2 mr-2 ml-4 md:ml-0 font-bold rounded-lg bg-slate-400 text-black ">I</span>
             IBRAHIM
           </Typography>
           <div className="flex items-center gap-4">
