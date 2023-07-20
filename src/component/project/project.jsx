@@ -69,7 +69,7 @@ const Project = () => {
         <div  className='pt-12 pb-16 bg-gray-950'>
 
 <h1  className="flex justify-center text-4xl dancingFont ">PROJECTS </h1>
-<div className='flex justify-center items-center  pl-5 md:pl-0'>
+<div className='flex justify-center items-center '>
         <Swiper
         effect={'coverflow'}
         grabCursor={true}

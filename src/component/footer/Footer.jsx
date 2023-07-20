@@ -22,13 +22,13 @@ const Footer = () => {
                     <h1 className='text-xl mb-2 text-indigo-500' >My Contacts</h1>
                     <div className='flex flex-col gap-2 dancingFont text-gray-300'>
                         <p> 01734935995</p>
-                        <p>ibrahimchowdhury1000@gmail.com</p>
+                        <p> ibrahimchowdhury1000@gmail.com</p>
                     </div>
                 </div>
 
                 <div>
                     <h1 className='text-xl mb-2 text-indigo-500'>
-                        Follow Ne on
+                        Follow Me on
                     </h1>
                     <div  className='flex  gap-4 dancingFont text-gray-300'>
                         <a target='_blank' className='bg-gray-400 text-black text-lg p-2 rounded-full'  href="https://www.facebook.com/ibrahim.khalil36"><FaFacebookF/></a>

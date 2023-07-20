@@ -10,7 +10,7 @@ import { AiFillGithub } from "react-icons/ai";
    
   export default function ProjectCard({data}) {
     return (
-      <Card className="Satisfy  ml-7   bg-gray-900 text-white flex gap-1 w-60 border-2 border-indigo-600 p-2 rounded-2xl ">
+      <Card className="Satisfy  ml-7   bg-transparent text-white flex gap-1 w-60 border-2 border-indigo-600 p-2 rounded-2xl ">
         <div color="blue-gray" className="relative workSans ">
           <img src={data.image}  alt="img-blur-shadow" className="h-32 rounded-t-lg" layout="fill" />
         </div>
