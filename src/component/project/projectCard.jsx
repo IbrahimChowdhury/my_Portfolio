@@ -15,7 +15,7 @@ import { AiFillGithub } from "react-icons/ai";
           <img src={data.image}  alt="img-blur-shadow" className="h-32 rounded-t-lg" layout="fill" />
         </div>
         <div>
-          <div  color="blue-gray" className="mb-2  font-semibold">
+          <div  color="blue-gray" className="mb-2 line-clamp-1 font-semibold">
             {data.name}
           </div>
           <div className="line-clamp-3 openSans text-sm">
