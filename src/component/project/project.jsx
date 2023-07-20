@@ -66,10 +66,10 @@ let data = [
 
 const Project = () => {
     return (
-        <div  className='mt-12 mb-16 '>
+        <div  className='pt-12 pb-16 bg-gray-950'>
 
 <h1  className="flex justify-center text-4xl dancingFont ">PROJECTS </h1>
-
+<div className='flex justify-center items-center  pl-5 md:pl-0'>
         <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -99,6 +99,7 @@ const Project = () => {
                     );
                 })}
             </Swiper>
+</div>
         </div>
     )
 }

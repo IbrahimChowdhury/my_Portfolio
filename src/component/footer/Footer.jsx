@@ -4,9 +4,9 @@ import {FaFacebookF, FaGithub} from "react-icons/fa"
 import {FiGithub} from "react-icons/fi"
 const Footer = () => {
     return (
-        <div className=''>
+        <div className='bg-gray-900 pt-14 pb-14'>
 
-            <div className='flex md:justify-around mt-14 mb-4 gap-10 ml-10 md:flex-row flex-col'>
+            <div className='flex md:justify-around  gap-10 ml-10 md:flex-row flex-col'>
 
                 <div className='flex flex-col gap-2'>
                     <h1 className='text-xl mb-2 text-indigo-500'>Links</h1>

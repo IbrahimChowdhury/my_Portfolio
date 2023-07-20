@@ -77,14 +77,13 @@
  .Timeline ul li .date{
     position: absolute;
     top: -45px;
-    width: 135px;
+    width: 150px;
     height: 35px;
     border-radius: 20px;
     color: #fff;
     background-image: linear-gradient(to right, rgb(106, 6, 236), rgb(220, 0, 240));
     display: grid;
     place-items: center;
-    font-size: 14px;
 }
 .Timeline ul li .circle{
     width: 30px;

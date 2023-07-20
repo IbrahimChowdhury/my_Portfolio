@@ -48,7 +48,7 @@ const Education = () => {
                     <p className=' openSans text-gray-300'>{item.desc}</p>
                     
                     <span class="circle"></span>
-                    <span class="date">{item.startYear}-{item.endYear}</span>
+                    <span class="date text-xl font-semibold ">{item.startYear}-{item.endYear}</span>
                 </li>
                   
                )) }
